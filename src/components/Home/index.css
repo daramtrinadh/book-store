@@ -1,0 +1,18 @@
+.book-list{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.loader{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    
+}
+.new-collection-head{
+    color:rgb(51, 51, 100);
+    text-align: center;
+}

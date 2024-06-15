@@ -1,0 +1,41 @@
+.header-section{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.input-section{
+    border:1px solid grey;
+    padding:8px;
+    border-radius:5px;
+    
+}
+.input-bar{
+    border:none;
+    outline:none;
+    margin-left:5px;
+    padding:5px;
+}
+.search-icon{
+    margin-right:5px;
+}
+@media screen and (max-width:320px) {
+    .header-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding:10px;
+    }
+    .input-section{
+        width:200px;
+    }
+    .input-bar{
+        padding:0px;
+    }
+    .cart-icon{
+        font-size:x-large;
+
+    }
+    
+}
+
