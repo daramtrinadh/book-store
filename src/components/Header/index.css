@@ -4,21 +4,8 @@
     padding: 20px;
     justify-content: space-between;
 }
-.input-section{
-    border:1px solid grey;
-    padding:8px;
-    border-radius:5px;
-    
-}
-.input-bar{
-    border:none;
-    outline:none;
-    margin-left:5px;
-    padding:5px;
-}
-.search-icon{
-    margin-right:5px;
-}
+
+
 @media screen and (max-width:320px) {
     .header-section{
         display: flex;

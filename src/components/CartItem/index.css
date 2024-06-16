@@ -1,0 +1,8 @@
+.cart-item-detail{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border:2px solid grey;
+    margin:5px;
+    list-style-type:none ;
+}

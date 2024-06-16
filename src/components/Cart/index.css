@@ -1,0 +1,8 @@
+.cart-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.no-items{
+    align-self:center;
+}

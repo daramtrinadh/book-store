@@ -2,6 +2,7 @@ import React from 'react'
 
 const CartContext = React.createContext({
     addToCart:()=>{},
-    cartItems:[]
+    cartItems:[],
+    
 })
 export default CartContext

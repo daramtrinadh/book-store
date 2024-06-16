@@ -12,7 +12,37 @@
     height:100vh;
     
 }
+.input-section{
+    margin:10px;
+    border:1px solid grey;
+    padding:8px;
+    border-radius:5px;
+    width:200px;
+}
+.input-bar{
+    border:none;
+    outline:none;
+    margin-left:5px;
+    padding:5px;
+}
+.search-icon{
+    margin-right:5px;
+    text-align: center;
+}
 .new-collection-head{
     color:rgb(51, 51, 100);
     text-align: center;
+}
+@media screen and (max-width:320px) {
+    .input-section{
+        width:200px;
+    }
+    .input-bar{
+        padding:0px;
+    }
+    .cart-icon{
+        font-size:x-large;
+
+    }
+    
 }
