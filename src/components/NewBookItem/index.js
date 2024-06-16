@@ -6,9 +6,7 @@ import { IoMdCart } from "react-icons/io";
 const NewBookItem = (props) => {
   const { BookDetail } = props;
   const { image, price, subtitle, title } = BookDetail;
-  const inr = price.slice(1,0) * 83.55;
-  const inrFinal = Math.ceil(inr * 100) / 100;
-  
+
   const { addToCart } = useContext(CartContext);
 
   const handleAddToCart = () => {
@@ -20,7 +18,7 @@ const NewBookItem = (props) => {
       <img src={image} alt={title} className='book-image' />
       <h1 className='book-title'>{title}</h1>
       <p className='book-subtitle'>{subtitle}</p>
-      <p className='book-price'>Price: ₹{inrFinal}</p>
+      <p className='book-price'>Price: {price}</p>
       <button className='cart-button' onClick={handleAddToCart}>
         <IoMdCart className='cart' />ADD TO CART
       </button>
