@@ -1,4 +1,3 @@
-// components/Home/index.js
 import { useEffect, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 

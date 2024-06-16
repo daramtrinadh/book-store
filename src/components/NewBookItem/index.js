@@ -6,7 +6,7 @@ import { IoMdCart } from "react-icons/io";
 const NewBookItem = (props) => {
   const { BookDetail } = props;
   const { image, price, subtitle, title } = BookDetail;
-  const inr = price.slice(1) * 83.55;
+  const inr = price.slice(1,0) * 83.55;
   const inrFinal = Math.ceil(inr * 100) / 100;
   
   const { addToCart } = useContext(CartContext);
